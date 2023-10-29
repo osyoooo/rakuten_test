@@ -76,9 +76,6 @@ df2['longitude'] = longtude_list
 selected_columns = ['hotelNo', 'hotelName', 'reviewAverage', 'reviewCount', 'hotel_locate', 'hotelMinCharge', 'hotelInformationUrl']
 df3 = df2[selected_columns]
 
-# Streamlitを使用してデータフレームを表示
-st.dataframe(df2)
-
 def app():
     st.title("ホテルの位置情報")
     
