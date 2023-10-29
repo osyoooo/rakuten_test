@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+pandas
+folium
+streamlit
+streamlit-folium
+python-dateutil
