@@ -9,8 +9,6 @@ from datetime import datetime
 # APIキーの設定
 APP_ID = st.secrets["db_rakutenAPI"]
 
-APP_ID = st.secrets["db_rakutenAPI"]
-
 input_score = st.sidebar.number_input('ここに入力した数字以上の評価のホテルを表示します※例_4.01', format="%.2f", min_value=0.0, step=0.01)
 checkinDate = st.sidebar.date_input('チェックイン日')
 checkoutDate = st.sidebar.date_input('チェックアウト日')
